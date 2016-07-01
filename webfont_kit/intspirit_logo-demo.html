@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8">
+
+	<style type="text/css">
+					body{
+				font-family: 'intspiritlogo';
+							}
+		</style>
+
+	<title>Intspirit Logo Specimen</title>
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		intspirit</div>
+	<ul class="tabs">
+		<li><a href="#specimen">Specimen</a></li>
+		<li><a href="#glyphs">Glyphs &amp; Languages</a></li>
+		<li><a href="#installing">Installing Webfonts</a></li>
+		
+	</ul>
+	
+	<div id="main_content">
+
+		
+			<div id="specimen">
+		
+				<div class="section">
+					<div class="grid12 firstcol">
+						<div class="huge">s</div>
+					</div>
+				</div>
+		
+				<div class="section">
+					<div class="glyph_range">i​n​t​s​p​i​r​i​t​</div>
+				</div>
+				<div class="section">
+					<div class="grid12 firstcol">
+						<table class="sample_table">
+							<tbody><tr><td>10</td><td class="size10">intspirit</td></tr>
+							<tr><td>11</td><td class="size11">intspirit</td></tr>
+							<tr><td>12</td><td class="size12">intspirit</td></tr>
+							<tr><td>13</td><td class="size13">intspirit</td></tr>
+							<tr><td>14</td><td class="size14">intspirit</td></tr>
+							<tr><td>16</td><td class="size16">intspirit</td></tr>
+							<tr><td>18</td><td class="size18">intspirit</td></tr>
+							<tr><td>20</td><td class="size20">intspirit</td></tr>
+							<tr><td>24</td><td class="size24">intspirit</td></tr>
+							<tr><td>30</td><td class="size30">intspirit</td></tr>
+							<tr><td>36</td><td class="size36">intspirit</td></tr>
+							<tr><td>48</td><td class="size48">intspirit</td></tr>
+							<tr><td>60</td><td class="size60">intspirit</td></tr>
+							<tr><td>72</td><td class="size72">intspirit</td></tr>
+							<tr><td>90</td><td class="size90">intspirit</td></tr>
+						</tbody></table>
+				
+					</div>
+			
+				</div>
+
+				<div class="section psample fullreverse psample_row4" id="" style="border-bottom: 20px #000 solid;">
+					<div class="grid12 firstcol">
+						<p class="size90">intspirit</p>
+					</div>
+					
+					
+				</div>
+				
+				
+				
+				
+			</div>
+
+		<div id="glyphs">
+			<div class="section">
+				<div class="grid12 firstcol">
+			
+				
+				
+				<h1>Glyph Chart</h1>
+				<p>The subset of Intspirit Logo Regular in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
+				<div id="glyph_chart">
+		
+																				 <div><p>&amp;#105;</p>i</div>
+																				 <div><p>&amp;#110;</p>n</div>
+																				 <div><p>&amp;#112;</p>p</div>
+																				 <div><p>&amp;#114;</p>r</div>
+																				 <div><p>&amp;#115;</p>s</div>
+																				 <div><p>&amp;#116;</p>t</div>
+																				 <div><p>&amp;#160;</p>&nbsp;</div>
+																																																</div>	
+				</div>
+		
+		
+			</div>
+		</div>
+		
+		
+		<div id="specs">
+			
+		</div>
+	
+		<div id="installing">
+			<div class="section">
+				<div class="grid7 firstcol">
+					<h1>Installing Webfonts</h1>
+					
+					<p>Webfonts are supported by all major browser platforms but not all in the same way. There are currently four different font formats that must be included in order to target all browsers. This includes TTF, WOFF, EOT and SVG.</p>
+					
+					<h2>1. Upload your webfonts</h2>
+					<p>You must upload your webfont kit to your website. They should be in or near the same directory as your CSS files.</p>
+					
+					<h2>2. Include the webfont stylesheet</h2>
+					<p>A special CSS @font-face declaration helps the various browsers select the appropriate font it needs without causing you a bunch of headaches. Learn more about this syntax by reading the <a href="https://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring blog post</a> about it. The code for it is as follows:</p>
+
+
+<code>
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+</code>
+
+	<p>We've already gone ahead and generated the code for you. All you have to do is link to the stylesheet in your HTML, like this:</p>
+	<code>&lt;link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" /&gt;</code>
+
+					<h2>3. Modify your own stylesheet</h2>
+					<p>To take advantage of your new fonts, you must tell your stylesheet to use them. Look at the original @font-face declaration above and find the property called "font-family." The name linked there will be what you use to reference the font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:</p>
+<code>p { font-family: 'WebFont', Arial, sans-serif; }</code>
+
+<h2>4. Test</h2>
+<p>Getting webfonts to work cross-browser <em>can</em> be tricky. Use the information in the sidebar to help you if you find that fonts aren't loading in a particular browser.</p>
+				</div>
+				
+				<div class="grid5 sidebar">
+					<div class="box">
+						<h2>Troubleshooting<br>Font-Face Problems</h2>
+						<p>Having trouble getting your webfonts to load in your new website? Here are some tips to sort out what might be the problem.</p>
+
+						<h3>Fonts not showing in any browser</h3>
+
+						<p>This sounds like you need to work on the plumbing. You either did not upload the fonts to the correct directory, or you did not link the fonts properly in the CSS. If you've confirmed that all this is correct and you still have a problem, take a look at your .htaccess file and see if requests are getting intercepted.</p>
+
+						<h3>Fonts not loading in iPhone or iPad</h3>
+
+						<p>The most common problem here is that you are serving the fonts from an IIS server. IIS refuses to serve files that have unknown MIME types. If that is the case, you must set the MIME type for SVG to "image/svg+xml" in the server settings. Follow these instructions from Microsoft if you need help.</p>
+
+						<h3>Fonts not loading in Firefox</h3>
+
+						<p>The primary reason for this failure? You are still using a version Firefox older than 3.5. So upgrade already! If that isn't it, then you are very likely serving fonts from a different domain. Firefox requires that all font assets be served from the same domain. Lastly it is possible that you need to add WOFF to your list of MIME types (if you are serving via IIS.)</p>
+
+						<h3>Fonts not loading in IE</h3>
+
+						<p>Are you looking at Internet Explorer on an actual Windows machine or are you cheating by using a service like Adobe BrowserLab? Many of these screenshot services do not render @font-face for IE. Best to test it on a real machine.</p>
+
+						<h3>Fonts not loading in IE9</h3>
+
+						<p>IE9, like Firefox, requires that fonts be served from the same domain as the website. Make sure that is the case.</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<div id="footer">
+		<p>©2010-2011 Font Squirrel. All rights reserved.</p>
+	</div>
+</div>
+</body></html>

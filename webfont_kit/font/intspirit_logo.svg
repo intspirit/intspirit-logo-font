@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata></metadata>
+<defs>
+<font id="intspirit_logoregular" horiz-adv-x="0" >
+<font-face units-per-em="2048" ascent="1638" descent="-410" />
+<missing-glyph horiz-adv-x="475" />
+<glyph />
+<glyph />
+<glyph unicode=" "  horiz-adv-x="475" />
+<glyph unicode="&#x09;" horiz-adv-x="475" />
+<glyph unicode="&#xa0;" horiz-adv-x="475" />
+<glyph unicode="i" horiz-adv-x="526" d="M109 1296q0 66 45 111t110 45q63 0 111 -45q45 -45 45 -111q0 -63 -45 -110q-47 -45 -111 -45q-66 0 -110 45q-45 47 -45 110zM131 0v999h264v-999h-264z" />
+<glyph unicode="n" horiz-adv-x="1159" d="M123 999h231l13 -145h6q98 166 309 166q150 0 244 -96q106 -113 106 -328v-596h-266v565q0 240 -176 240q-88 0 -141.5 -65.5t-53.5 -153.5v-586h-264v696q0 139 -8 303z" />
+<glyph unicode="p" horiz-adv-x="1183" d="M123 999h231l13 -149h4q113 170 331 170q174 0 292 -139.5t118 -368.5q0 -256 -139 -403q-123 -131 -305 -132q-188 0 -269 127h-4v-434l-264 -76v1074q0 158 -8 331zM395 416q0 -96 56 -162q59 -72 155 -72q111 0 174.5 87.5t63.5 230.5q0 137 -60.5 224t-171.5 87 q-92 0 -154.5 -71.5t-62.5 -166.5v-157z" />
+<glyph unicode="r" horiz-adv-x="731" d="M125 999h229l11 -186h6q35 98 112 156q72 51 156 51q35 0 59 -4v-252q-37 8 -75 8q-113 0 -170.5 -72.5t-57.5 -185.5v-514h-264l2 678q0 184 -8 321z" />
+<glyph unicode="s" horiz-adv-x="1527" d="M49 510q0 -203 105 -336q109 -137 284 -137q156 0 244 84q76 72 123 223l182 -178l6 -6l185 -180l53 51q184 172 184 469q0 262 -117 395q-109 125 -305 125q-174 0 -272 -117q-74 -84 -119 -258l-160 156l-2 4h-2l-186 182q-203 -195 -203 -477zM307 500q0 135 86 245 l189 -182q-37 -154 -66 -201q-31 -51 -90 -51q-49 0 -82 41q-37 49 -37 148zM827 426l7 25q41 182 77 241q35 53 101 53q145 0 145 -231q0 -178 -113 -301l-6 6z" />
+<glyph unicode="t" horiz-adv-x="718" d="M35 803v196h137v185l260 73v-258h234v-196h-234v-426q0 -180 127 -180q55 0 94 10l4 -203q-67 -24 -177 -24h-9q-139 0 -219 82.5t-80 281.5v459h-137z" />
+<glyph unicode="&#x2000;" horiz-adv-x="726" />
+<glyph unicode="&#x2001;" horiz-adv-x="1452" />
+<glyph unicode="&#x2002;" horiz-adv-x="726" />
+<glyph unicode="&#x2003;" horiz-adv-x="1452" />
+<glyph unicode="&#x2004;" horiz-adv-x="484" />
+<glyph unicode="&#x2005;" horiz-adv-x="363" />
+<glyph unicode="&#x2006;" horiz-adv-x="242" />
+<glyph unicode="&#x2007;" horiz-adv-x="242" />
+<glyph unicode="&#x2008;" horiz-adv-x="181" />
+<glyph unicode="&#x2009;" horiz-adv-x="290" />
+<glyph unicode="&#x200a;" horiz-adv-x="80" />
+<glyph unicode="&#x202f;" horiz-adv-x="290" />
+<glyph unicode="&#x205f;" horiz-adv-x="363" />
+<glyph unicode="&#x25fc;" horiz-adv-x="1024" d="M0 0z" />
+<hkern u1="n" u2="t" k="18" />
+<hkern u1="r" u2="t" k="-45" />
+<hkern u1="r" u2="p" k="12" />
+<hkern u1="s" u2="p" k="20" />
+</font>
+</defs></svg> 
